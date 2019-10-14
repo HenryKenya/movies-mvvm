@@ -16,7 +16,7 @@ class MovieDetailDataSource(private val apiService: MovieDBInterface, private va
         get() = _networkState // to avoid implementing getters and setters
 
     private val _downloadedMovieResponse = MutableLiveData<MovieDetails>()
-    val downloadedMovieDetails: LiveData<MovieDetails>
+    val downloadedMovieResponse: LiveData<MovieDetails>
         get() = _downloadedMovieResponse
 
     fun getMovieDetails(movieId: Int) {
