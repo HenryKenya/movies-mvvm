@@ -1,4 +1,4 @@
-package com.example.moviesmvvm.single_movie_details
+package com.example.moviesmvvm.ui.single_movie_details
 
 import androidx.lifecycle.LiveData
 import com.example.moviesmvvm.data.api.MovieDBInterface
